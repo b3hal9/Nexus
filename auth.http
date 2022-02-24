@@ -1,0 +1,53 @@
+
+### Police register
+POST http://localhost:5000/api/police/signup HTTP/1.1
+Content-Type: application/json
+
+{  "id": "12345678",
+  "name": "Bishal Bista",
+  "email": "b3hal9@gmail.com",
+  "password": "12345678"
+}
+### Police login
+POST http://localhost:5000/api/police/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "b3hal9@gmail.com",
+  "password": "12345678"
+}
+
+###get police location
+GET http://localhost:5000/api/police_locations HTTP/1.1
+
+
+### user register
+POST  http://localhost:5000/api/signup HTTP/1.1
+Content-Type: application/json
+
+{ 
+  "name": "Bishal Bista",
+  "email": "b3hal9@gmail.com",
+  "password": "12345678"
+}
+
+### test pw rest
+GET http://localhost:5000/api/user/crimeRecords HTTP/1.1
+
+
+### get user
+GET http://localhost:5000/api/user?id=6177b0d508eee5b05a876169 HTTP/1.1
+
+
+
+### get crimeUser
+GET http://localhost:5000/api/crimeUser?id=61af82a5fd226ad3ccd048b0 HTTP/1.1
+
+
+
+###get emergency request
+GET http://localhost:5000/api/allrequests HTTP/1.1
+
+
+###get all crime records
+GET http://localhost:5000/api/user/crimeRecords HTTP/1.1

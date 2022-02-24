@@ -1,0 +1,36 @@
+
+### create post
+Post http://localhost:5000/api/createpost HTTP/1.1
+content-type: application/json
+
+{  
+  "title": "Test Post",
+  "description": "This is a demo post.",
+}
+
+###user loc
+Post http://localhost:5000/userlocation HTTP/1.1
+content-type: application/json
+
+{  
+   "title": "Test Post",
+  "description": "This is a demo post.",
+}
+
+###
+GET http://localhost:5000/api/posts HTTP/1.1
+
+
+
+### Delete post
+DELETE  http://localhost:5000/api/post?id=6199a13ffbc22a15ef8238b7 HTTP/1.1
+
+
+
+### post message
+POST  http://localhost:5000/api/message_bot HTTP/1.1
+content-type: application/json
+
+{  
+   "message": "how are you"
+}

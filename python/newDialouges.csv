@@ -1,0 +1,33 @@
+﻿dialogues	classes	answers		
+hi	greeting	hello		
+hello	greeting	hi		
+hola	greeting	Hey there		
+how are you	greeting	"I am good	 How can I help you?"	
+ hi who are you	asking_name	"I am a helping chatbot	 How can I help you?"	
+what are you	asking_name	I am a chatbot assistant to guide you through the app		
+what is your name	asking_name	"I have no name	 But you can call me chatbot."	
+who is your creator	creator	"I am a part of Project work	 My creators are the students CSIT"	
+who created you	creator	My creators are the developer of Police Support System		
+who is your father	creator	"I have no biological father	 I am a product of a project."	
+emergency help line number	help line number	Dial 100		
+police help line number	help line number	Call 100		
+what is the number for police emergency help line	help line number	You can always call us at 100		
+Can I report a crime anonymously?	C2	"Your info will stay with us	 but it wont be publicly available through app for others"	
+Is my identity secure while reporting a crime?	C3	It is safe with us but Administration will know your info		
+Can I talk with real assistant?	C4	"Sorry	 We are working on it."	
+Is my location being traced all time?	C5	"No	 Only when you give us the access or want to be traced."	
+What is the chatbot for?	C6	I am for guidance and help you through the app		
+"I am having problem with login	 How can I reset my password?"	login	"You would be able to find forgot password button on the login page	 or just follow this link (Link for forgot pass webpage)"
+How to reset my password?	login	Follow the link (Insert the link here)		
+"I forgot my user id	 what can I do?"	login	You can enter your email address as user id and follow the link (link here)	
+I need an email address for nearest police station	email	You can email us at (email address ) Visit our website at ( Webpage link)		
+Do I get any rewards using this app?	rewards	"Sorry	 we prioritize safety for now."	
+Can I refer this app to a friend?	refer	You can refer to any citizen for their welfare and safety.		
+Can I pay traffic fines through here?	Payment	No payments can be done from here. We will notify when we add the feature.		
+Can I pay my fines?	Payment	No payments can be done from here. We will notify when we add the feature.		
+where can I email you?	email	you can email us at (email address ) Visit our website at ( Webpage link)		
+your email address	email	you can email us at (email address ) Visit our website at ( Webpage link)		
+can I get your email address	email			
+do I have to refer this app to my friends and relatives	refer			
+can I talk with real human	C4			
+who are you	asking_name			
